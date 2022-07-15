@@ -1,0 +1,53 @@
+@media (min-width: 320px) and (max-width: 480px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .section-1 {
+        height: 700px;
+    }
+
+    .heads {
+        width: 300px;
+        position: relative;
+        left: -65px;
+    }
+
+    #tail {
+        position: relative;
+        left: -5px;
+    }
+
+    .plyer label {
+        position: relative;
+        left: 29px;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .plyer input {
+        position: relative;
+        left: 29px;
+    }
+
+    .name label {
+        position: relative;
+        top: -70px;
+        left: 30px;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .name input {
+        position: relative;
+        top: -70px;
+        left: 30px;
+    }
+
+    .butt button {
+        position: relative;
+        top: -50px;
+        left: 25px;
+    }
+}

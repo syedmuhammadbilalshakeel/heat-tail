@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Head and Tail</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Balsamiq+Sans&family=Bree+Serif&family=Noto+Sans+JP:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon"
+        href="https://t3.ftcdn.net/jpg/03/65/44/74/360_F_365447421_5HTFUGyyOuKYnI2MKqOEVdgdRZ0YnBCi.jpg"
+        type="image/x-icon">
+</head>
+
+<body>
+    <div class="section-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+
+                </div>
+                <div class="col-6">
+                    <div class="heads">
+                        <script
+                            src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                        <lottie-player id="tail" src="https://assets5.lottiefiles.com/packages/lf20_1l9gpfir.json"
+                            background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay>
+                        </lottie-player>
+                        <h1>Head and Tail Game</h1>
+                        <div class="plyer">
+                            <label for="#">Player-1 Name</label> <br>
+                            <input id="qadeer" type="text" placeholder="Name" onfocus="this.style.backgroundColor='yellow';">
+                        </div>
+                        <div class="name">
+                            <label for="#">Player-2 Name</label> <br>
+                            <input id="abdul" type="text" placeholder="Name" onfocus="this.style.backgroundColor='yellow';">
+                        </div>
+                        <div class="butt">
+                            <button onclick="foo()" type="button" class="btn btn-danger">Head</button>
+                            <button onclick="foo()" type="button" class="btn btn-danger">Tail</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
